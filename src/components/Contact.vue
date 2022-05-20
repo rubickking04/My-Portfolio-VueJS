@@ -53,6 +53,7 @@
             <a href="https://www.facebook.com/alfhaigar.usman.1/" ><span class="fs-1 px-2 bi bi-facebook"></span></a>
             <a href="https://github.com/rubickking04"><span class="fs-1 px-2 bi bi-github px-2 text-dark"></span></a>
             <a href="https://www.instagram.com/kingrubick_04/"><span class="fs-1 bi bi-instagram px-2 text-danger"></span></a>
+            <a href="https://www.linkedin.com/in/al-fhaigar-usman-108812193/"><span class="fs-1 bi bi-linkedin text-primary px-3"></span></a>
         </div>
     </section>
 </template>

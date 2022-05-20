@@ -56,7 +56,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item mx-auto px-3 list-link">
                 <v-btn
                   id="no-background-hover"
@@ -89,6 +89,16 @@
               </li>
               <li class="nav-item mx-auto px-3 list-link">
                 <v-btn
+                  href="#services"
+                  id="no-background-hover"
+                  text
+                  @click="scroll('about')"
+                  class="text-white"
+                  >Services</v-btn
+                >
+              </li>
+              <li class="nav-item mx-auto px-3 list-link">
+                <v-btn
                   href="#projects"
                   id="no-background-hover"
                   text
@@ -117,6 +127,7 @@
       <HelloWorld />
       <About />
       <Skills />
+      <Services />
       <Project />
       <Contact />
     </v-main>
@@ -150,6 +161,7 @@ import HelloWorld from "./components/HelloWorld";
 import About from "./components/About.vue";
 import Contact from "./components/Contact";
 import Skills from "./components/Skills";
+import Services from "./components/Services";
 import Project from "./components/Project";
 
 export default {
@@ -161,6 +173,7 @@ export default {
     Contact,
     Skills,
     Project,
+    Services,
   },
 
   data: () => ({
