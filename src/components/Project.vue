@@ -2,11 +2,11 @@
     <section id="projects">
       <v-container>
         <h6 class="text-center text-uppercase text-secondary fw-bold py-5" style="font-family: 'Montserrat', sans-serif">• Projects •</h6>
-        <h1 class="text-center text-capitalize fw-bold py-5" style="font-family: 'Montserrat', sans-serif">My previous works</h1>
+        <h1 class="text-center text-capitalize fw-bold py-5" style="font-family: 'Montserrat', sans-serif" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-easing="linear" data-aos-duration="900">My previous works</h1>
           <div class="row py-5">
             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
               <v-hover v-slot="{ hover }">
-                <v-card  :elevation="hover ? 24 : 2" :class="{ 'on-hover': hover  }" max-width="500" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-easing="linear" data-aos-duration="900">
+                <v-card  :elevation="hover ? 24 : 2" :class="{ 'on-hover': hover  }" max-width="500">
                 <v-img src="../assets/project1.png" height="200px"></v-img>
                 <v-card-title>College of Information and Computing Science</v-card-title>
                 <v-card-subtitle class="subtitle-1">Automated Class Grading System</v-card-subtitle>

@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <!-- <v-app-bar app color="dark" dark shadow> -->
-    <header class="sticky-top">
+    <!-- <header class="sticky-top"> -->
       <!-- <nav class="navbar d-none d-md-block text-muted" style=" background: #263238;">
             <div class="container-fluid">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
@@ -23,7 +23,7 @@
                 </ul>
             </div>
         </nav> -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow sticky-top">
         <div class="container">
           <div class="d-flex navbar-brand">
             <v-img
@@ -79,22 +79,22 @@
               </li>
               <li class="nav-item mx-auto px-3 list-link">
                 <v-btn
-                  href="#skill"
-                  id="no-background-hover"
-                  text
-                  @click="scroll('about')"
-                  class="text-white"
-                  >Skills</v-btn
-                >
-              </li>
-              <li class="nav-item mx-auto px-3 list-link">
-                <v-btn
                   href="#services"
                   id="no-background-hover"
                   text
                   @click="scroll('about')"
                   class="text-white"
                   >Services</v-btn
+                >
+              </li>
+              <li class="nav-item mx-auto px-3 list-link">
+                <v-btn
+                  href="#skill"
+                  id="no-background-hover"
+                  text
+                  @click="scroll('about')"
+                  class="text-white"
+                  >Skills</v-btn
                 >
               </li>
               <li class="nav-item mx-auto px-3 list-link">
@@ -122,12 +122,13 @@
           </div>
         </div>
       </nav>
-    </header>
+    <!-- </header> -->
     <v-main>
       <HelloWorld />
       <About />
-      <Skills />
       <Services />
+      <Skills />
+      
       <Project />
       <Contact />
     </v-main>

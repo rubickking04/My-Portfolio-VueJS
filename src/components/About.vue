@@ -30,6 +30,7 @@
             </div>
         </v-container>
     </section>
+    
 </template>
 <script>
 export default {
