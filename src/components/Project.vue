@@ -9,7 +9,7 @@
                 <v-card  :elevation="hover ? 24 : 2" :class="{ 'on-hover': hover  }" max-width="500">
                 <v-img src="../assets/project1.png" height="200px"></v-img>
                 <v-card-title>College of Information and Computing Science</v-card-title>
-                <v-card-subtitle class="subtitle-1">Automated Class Grading System</v-card-subtitle>
+                <v-card-subtitle class="subtitle-1">Automated Class Grading System — PHP Laravel</v-card-subtitle>
                 <v-card-actions>
                   <v-btn href="https://zppsu-cics-wannabe.herokuapp.com/" color="orange lighten-2" text>Explore Now</v-btn>
                   <v-spacer></v-spacer>

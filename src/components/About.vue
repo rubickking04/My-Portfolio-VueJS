@@ -18,7 +18,7 @@
                                                 <v-card-subtitle class="title fw-bold">Fullstack Developer & System Analyst</v-card-subtitle>
                                                 <v-card-text class="subtitle-1">{{ aboutMe }}</v-card-text>
                                                 <v-btn elevation="12" dark class="mx-4">Hire Me</v-btn>
-                                                <v-btn elevation="12" dark class="mx-2">Download CV</v-btn>
+                                                <v-btn elevation="12"  class="mx-2 fw-bold">Download CV</v-btn>
                                             </div>
                                         </div>
                                     </div>
