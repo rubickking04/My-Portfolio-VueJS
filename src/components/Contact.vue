@@ -9,7 +9,7 @@
             </div>
             <v-row>
                 <div class="col-lg-4 col-md-4 mb-3">
-                    <v-card elevation="24" shaped data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-easing="linear" data-aos-duration="900">
+                    <v-card elevation="24" shaped data-aos="fade-up" data-aos-easing="linear" data-aos-duration="900">
                         <v-card-body class="py-5">
                             <div class="p-3 py-5 h-100 text-center">
                                     <i class="fas fa-map-marked-alt text-danger fs-1 mb-2"></i>
@@ -21,7 +21,7 @@
                         </v-card-body>
                     </v-card>
                 </div>
-                <div class="col-lg-4 col-md-4 mb-3" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-easing="linear" data-aos-duration="900">
+                <div class="col-lg-4 col-md-4 mb-3" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="900">
                     <v-card elevation="24" shaped>
                         <v-card-body class="py-5">
                             <div class="p-3 py-5 h-100 text-center">
@@ -33,7 +33,7 @@
                         </v-card-body>
                     </v-card>
                 </div>
-                <div class="col-lg-4 col-md-4 mb-3" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-easing="linear" data-aos-duration="900">
+                <div class="col-lg-4 col-md-4 mb-3" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="900">
                     <v-card elevation="24" shaped>
                         <v-card-body class="py-5">
                             <div class="p-3 py-5 h-100 text-center">

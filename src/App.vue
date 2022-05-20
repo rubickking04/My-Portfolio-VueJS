@@ -1,28 +1,5 @@
 <template>
   <v-app>
-    <!-- <v-app-bar app color="dark" dark shadow> -->
-    <!-- <header class="sticky-top"> -->
-      <!-- <nav class="navbar d-none d-md-block text-muted" style=" background: #263238;">
-            <div class="container-fluid">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                    <div class="container ">
-                        <div class="hstack gap-3">
-                            <a href="https://www.facebook.com/alfhaigar.usman.1/"><span class="fs-4 bi text-white text-opacity-75 bi-facebook"></span></a>
-                            <a href="https://github.com/rubickking04"><span class="fs-4 bi bi-github text-white text-opacity-75"></span></a>
-                        </div>
-                    </div>
-                </ul>
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                    <div class="container">
-                        <div class="hstack gap-3">
-                            <p class="mb-2 text-white text-opacity-75 small" style="font-family: 'Montserrat', sans-serif;" ><span class="bi bi-geo-alt-fill px-2 text-danger"></span>R.T. Lim Boulevard Baliwasan, Zamboanga City</p>
-                            <div class="vr"></div>
-                            <p class="mb-2 text-white text-opacity-75" style="font-family: 'Montserrat', sans-serif;" ><span class="fa-solid fa-envelope px-2 text-warning"></span>wannabeit2022@gmail.com</p>
-                        </div>
-                    </div>
-                </ul>
-            </div>
-        </nav> -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow sticky-top">
         <div class="container">
           <div class="d-flex navbar-brand">
@@ -116,13 +93,11 @@
           </div>
         </div>
       </nav>
-    <!-- </header> -->
     <v-main>
       <HelloWorld />
       <About />
       <Services />
       <Skills />
-      
       <Project />
       <Contact />
     </v-main>
