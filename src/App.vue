@@ -62,7 +62,6 @@
                   id="no-background-hover"
                   href="#home"
                   text
-                  @click="scroll('home')"
                   class="text-white"
                   >Home</v-btn
                 >
@@ -72,7 +71,6 @@
                   href="#about"
                   id="no-background-hover"
                   text
-                  @click="scroll('about')"
                   class="text-white"
                   >About</v-btn
                 >
@@ -82,7 +80,6 @@
                   href="#services"
                   id="no-background-hover"
                   text
-                  @click="scroll('about')"
                   class="text-white"
                   >Services</v-btn
                 >
@@ -92,7 +89,6 @@
                   href="#skill"
                   id="no-background-hover"
                   text
-                  @click="scroll('about')"
                   class="text-white"
                   >Skills</v-btn
                 >
@@ -102,7 +98,6 @@
                   href="#projects"
                   id="no-background-hover"
                   text
-                  @click="scroll('project')"
                   class="text-white"
                   >Projects</v-btn
                 >
@@ -112,7 +107,6 @@
                   id="no-background-hover"
                   href="#contact"
                   text
-                  @click="scroll('#contact')"
                   class="text-white"
                 >
                   Contact</v-btn
