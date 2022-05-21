@@ -17,11 +17,11 @@
                                                 <v-card-title class="display-2 fw-bold">About Me</v-card-title>
                                                 <v-card-subtitle class="title fw-bold">Fullstack Developer & System Analyst</v-card-subtitle>
                                                 <v-card-text class="subtitle-1">{{ aboutMe }}</v-card-text>
-                                                <div class="row">
-                                                    <div class="col-lg-3 col-5">
+                                                <div class="row no-gutters">
+                                                    <div class="col-lg-2 col-md-3 col-sm-3 col-5">
                                                         <v-btn href="#contact" elevation="12" dark class="mx-4 mb-2">Hire Me</v-btn>
                                                     </div>
-                                                    <div class="col-lg-3 col-6">
+                                                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                                                         <v-btn elevation="12"  class="mx-2 fw-bold mb-2">Download CV</v-btn>
                                                     </div>
                                                 </div>
