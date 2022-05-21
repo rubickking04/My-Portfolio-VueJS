@@ -43,7 +43,7 @@
                         </v-card>
                     </v-hover>
                 </div>
-                <div class="col-lg-8 col-md-10">
+                <div class="col-lg-8 col-md-8">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                             <v-hover v-slot="{ hover }">
