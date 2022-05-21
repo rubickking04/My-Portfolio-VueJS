@@ -15,7 +15,7 @@
                                     <i class="fas fa-map-marked-alt text-danger fs-1 mb-2"></i>
                                     <h4 class="text-uppercase m-0">Address</h4>
                                     <hr class="my-4 mx-auto" />
-                                    <div class="subtitle-1 text-black-100">Sinunuc, Zamboanga City
+                                    <div class="subtitle-1 text-black-100">Sinunuc, Zamboanga City, Philippines 7000
                                     </div>
                             </div>
                         </v-card-body>
@@ -40,7 +40,7 @@
                                     <i class="fa-solid fa-phone text-primary mb-2 fs-1"></i>
                                     <h4 class="text-uppercase m-0">Phone</h4>
                                     <hr class="my-4 mx-auto" />
-                                    <div class="subtitle-1 text-black-100">0955-781-5639</div>
+                                    <div class="subtitle-1 text-black-100">(+63)955-781-5639</div>
                             </div>
                         </v-card-body>
                     </v-card>
