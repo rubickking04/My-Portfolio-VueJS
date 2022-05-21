@@ -2,7 +2,7 @@
   <v-app>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow sticky-top">
         <div class="container">
-          <div class="d-flex navbar-brand">
+          <a href="https://alfhaigarusman04.herokuapp.com/" class="d-flex navbar-brand">
             <v-img
               alt="Vuetify Logo"
               class="shrink px-1"
@@ -20,7 +20,7 @@
               transition="scale-transition"
               width="80"
             />
-          </div>
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -119,7 +119,7 @@
           style="width: 35px; height: 35px"
         >
         </lord-icon>
-        by <a href="#home" class="text-decoration-none fw-bold ">Al-Fhaigar Usman</a>. All
+        by <a href="https://alfhaigarusman04.herokuapp.com/" class="text-decoration-none fw-bold ">Al-Fhaigar Usman</a>. All
         rights reserved 2022.
       </div>
     </v-footer>
