@@ -20,10 +20,10 @@
                         <a href="https://www.linkedin.com/in/al-fhaigar-usman-108812193/"><span class="fs-1 bi bi-linkedin text-primary px-3"></span></a>
                       </div>
                       <div class="text-start row no-gutters">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-5">
                           <v-btn dark large  elevation="20" class="text-start" href="#about">About me</v-btn>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-6">
                           <v-btn large class="text-start fw-bold"  elevation="15" href="#about" >Download CV</v-btn>
                         </div>
                       </div>
