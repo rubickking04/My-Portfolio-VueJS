@@ -43,9 +43,9 @@
                         </v-card>
                     </v-hover>
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-8 col-md-10">
                     <div class="row">
-                        <div class="col-lg-6 col-md-4 col-sm-12 col-12">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                             <v-hover v-slot="{ hover }">
                                 <v-card  :elevation="hover ? 24 : 5" :class="{ 'on-hover': hover  }" max-width="1000">
                                     <v-card-body class="text-center"> 
@@ -58,7 +58,7 @@
                                 </v-card>
                             </v-hover>
                         </div>
-                        <div class="col-lg-6 col-md-4 col-sm-12 col-12">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                             <v-hover v-slot="{ hover }">
                                 <v-card  :elevation="hover ? 24 : 5" :class="{ 'on-hover': hover  }" max-width="1000">
                                     <v-card-body class="text-center"> 

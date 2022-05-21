@@ -4,8 +4,8 @@
             <h6 class="text-secondary text-center text-uppercase  py-4 fw-bolder" style="font-family: 'Montserrat', sans-serif">
             <span class="px-2 py-4">•</span>Contact<span class="px-2">•</span></h6>
             <div class="text-center mb-4 py-5">
-                <h3 class="display-6 fw-bold mb-4 font-weight-regular text-capitalize" style="font-family: 'Montserrat', sans-serif">If you have any project in your mind.</h3>
-                <h1 class="display-6 fw-bold mb-4 font-weight-regular text-info" style="font-family: 'Montserrat', sans-serif">Get in touch with me now!</h1>
+                <!-- <h3 class="display-6 fw-bold mb-4 font-weight-regular text-capitalize" style="font-family: 'Montserrat', sans-serif">If you have any project in your mind.</h3> -->
+                <h1 class="display-6 fw-bold mb-4 font-weight-regular" style="font-family: 'Montserrat', sans-serif">Get in touch with me now!</h1>
             </div>
             <v-row>
                 <div class="col-lg-4 col-md-4 mb-3">

@@ -17,7 +17,7 @@
                                                 <v-card-title class="display-2 fw-bold">About Me</v-card-title>
                                                 <v-card-subtitle class="title fw-bold">Fullstack Developer & System Analyst</v-card-subtitle>
                                                 <v-card-text class="subtitle-1">{{ aboutMe }}</v-card-text>
-                                                <v-btn elevation="12" dark class="mx-4">Hire Me</v-btn>
+                                                <v-btn href="#contact" elevation="12" dark class="mx-4">Hire Me</v-btn>
                                                 <v-btn elevation="12"  class="mx-2 fw-bold">Download CV</v-btn>
                                             </div>
                                         </div>
@@ -36,7 +36,7 @@
 export default {
     name: "About-Me-Myself-and-i",
     data: () => ({
-        aboutMe: 'Hi, My name is Al-Fhaigar J. Usman a Fullstack Developer and a System Analyst from Zamboanga City, Philippines. I create a custom website to help everyone do better online, I am currently studying as a 3rd year student at Zamboanga Peninsula Polytechnic State University.'
+        aboutMe: 'Hi, My name is Al-Fhaigar J. Usman a Fullstack Developer and a System Analyst from Zamboanga City, Philippines. I create a custom website to help everyone do better online, I am currently studying as a 3rd year student at Zamboanga Peninsula Polytechnic State University. If you are employer looking for hire you can get in touch with me here.'
     }),
 }
 </script>
