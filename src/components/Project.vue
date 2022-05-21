@@ -1,8 +1,9 @@
 <template>
     <section id="projects">
+      <div class="py-5 mb-5"></div>
       <v-container>
         <h6 class="text-center text-uppercase text-secondary fw-bold py-5" style="font-family: 'Montserrat', sans-serif">• Projects •</h6>
-        <h1 class="text-center text-capitalize fw-bold py-5" style="font-family: 'Montserrat', sans-serif" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-easing="linear" data-aos-duration="900">My previous works</h1>
+        <h1 class="text-center text-capitalize fw-bold py-5" style="font-family: 'Montserrat', sans-serif" data-aos="fade-up"  data-aos-easing="linear" data-aos-duration="900">My previous works</h1>
           <div class="row py-5 no-gutters">
             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-5">
               <v-hover v-slot="{ hover }">

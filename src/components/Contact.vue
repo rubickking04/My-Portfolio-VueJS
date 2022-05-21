@@ -1,5 +1,6 @@
 <template>
-    <section id="contact" class="footer text-center py-5">
+    <section id="contact" class="footer text-center">
+        <div class="py-5 mb-5"></div>
         <v-container class="py-5 mb-5">
             <h6 class="text-secondary text-center text-uppercase  py-4 fw-bolder" style="font-family: 'Montserrat', sans-serif">
             <span class="px-2 py-4">•</span>Contact<span class="px-2">•</span></h6>

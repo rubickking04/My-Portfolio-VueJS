@@ -1,5 +1,6 @@
 <template>
-    <section id="skill" class="py-5">
+    <section id="skill">
+        <div class="py-5 mb-5"></div>
         <v-container>
             <h6 class="text-center text-uppercase text-secondary fw-bold py-5" style="font-family: 'Montserrat', sans-serif">• Skills •</h6>
             <h1 class="text-center text-capitalize fw-bold py-5" style="font-family: 'Montserrat', sans-serif">My skills in programming</h1>

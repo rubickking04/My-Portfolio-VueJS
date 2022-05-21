@@ -64,6 +64,7 @@ h1 .my-name {
   white-space: nowrap;
   border-right: 4px solid #1de2d1;
   animation: typing 5s  infinite;
+
 }
 @keyframes typing{
   0%{
