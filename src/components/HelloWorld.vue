@@ -11,7 +11,7 @@
                     <div class="py-3 container">
                       <h5 class="headline px-2 text-start font-weight-bold">Hello, I'm </h5>
                       <h1 class="my-text display-3  text-start font-weight-bold my-name" style="font-family: 'Montserrat', sans-serif">{{ me }}</h1>
-                      <p class="headline text-start font-weight-bold typing-text">A Fullstack Developer.</p>
+                      <p class="headline text-start font-weight-bold typing-text">A Fullstack Web Developer.</p>
                       <div class="text-start mb-3">
                         <a href="https://twitter.com/rubickking04"><span class="fs-1 bi bi-twitter text-info px-3"></span></a>
                         <a href="https://www.facebook.com/alfhaigar.usman.1/" ><span class="fs-1 px-3 bi bi-facebook text-primary"></span></a>
@@ -70,7 +70,7 @@ h1 .my-name {
     width: 0ch;
   }
   50%{
-    width: 20ch;
+    width: 22ch;
   }
   100%{
     width: 0ch;
