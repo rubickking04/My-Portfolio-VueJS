@@ -8,7 +8,7 @@
                     <v-hover v-slot="{ hover }">
                         <v-card  :elevation="hover ? 24 : 5" :class="{ 'on-hover': hover  }" max-width="1000">
                             <v-card-body class="text-center"> 
-                                <div class="py-2 mb-3">
+                                <div class="mb-3">
                                     <v-img src="../assets/web4.png" height="250px"></v-img>
                                 </div>
                                 <div class="card-title font-weight-bold " style="font-family: 'Montserrat', sans-serif"><h3 class=" fw-bold">Website</h3></div>
@@ -21,7 +21,7 @@
                     <v-hover v-slot="{ hover }">
                         <v-card  :elevation="hover ? 24 : 5" :class="{ 'on-hover': hover  }" max-width="1000">
                             <v-card-body class="text-center"> 
-                                <div class="py-2 mb-3">
+                                <div class="mb-3">
                                     <v-img src="../assets/web5.png" height="250px"></v-img>
                                 </div>
                                 <div class="card-title font-weight-bold " style="font-family: 'Montserrat', sans-serif"><h3 class=" fw-bold">Web Application</h3></div>
@@ -34,7 +34,7 @@
                     <v-hover v-slot="{ hover }">
                         <v-card  :elevation="hover ? 24 : 5" :class="{ 'on-hover': hover  }" max-width="1000">
                             <v-card-body class="text-center"> 
-                                <div class="py-2 mb-3">
+                                <div class="mb-3">
                                     <v-img src="../assets/web3.png" height="250px"></v-img>
                                 </div>                                
                                 <div class="card-title font-weight-bold " style="font-family: 'Montserrat', sans-serif"><h3 class="fw-bold">Mobile Application</h3></div>
@@ -49,7 +49,7 @@
                             <v-hover v-slot="{ hover }">
                                 <v-card  :elevation="hover ? 24 : 5" :class="{ 'on-hover': hover  }" max-width="1000">
                                     <v-card-body class="text-center"> 
-                                        <div class="py-2 mb-3">
+                                        <div class="mb-3">
                                             <v-img src="../assets/web6.png" height="250px"></v-img>
                                         </div>                                
                                         <div class="card-title font-weight-bold " style="font-family: 'Montserrat', sans-serif"><h3 class="fw-bold">System Software</h3></div>
@@ -62,7 +62,7 @@
                             <v-hover v-slot="{ hover }">
                                 <v-card  :elevation="hover ? 24 : 5" :class="{ 'on-hover': hover  }" max-width="1000">
                                     <v-card-body class="text-center"> 
-                                        <div class="py-2 mb-3">
+                                        <div class="mb-3">
                                             <v-img src="../assets/web7.png" height="250px"></v-img>
                                         </div>                                
                                         <div class="card-title font-weight-bold " style="font-family: 'Montserrat', sans-serif"><h3 class="fw-bold">Cloud Hosting</h3></div>
@@ -82,3 +82,5 @@ export default {
     name: 'My-Services-in-work'
 }
 </script>
+<style>
+</style>
