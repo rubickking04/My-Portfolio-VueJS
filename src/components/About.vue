@@ -36,7 +36,7 @@
 export default {
     name: "About-Me-Myself-and-i",
     data: () => ({
-        aboutMe: 'Hi, My name is Al-Fhaigar J. Usman a Fullstack Developer and a System Analyst from Zamboanga City, Philippines. I create a custom website to help everyone do better online, I am currently studying as a 3rd year student at Zamboanga Peninsula Polytechnic State University. If you are employer looking for hire you can get in touch with me here.'
+        aboutMe: 'Hi, My name is Al-Fhaigar J. Usman a Fullstack Developer and a System Analyst from Zamboanga City, Philippines. I create a custom website to help everyone do better online, I am currently studying as a 3rd year student at Zamboanga Peninsula Polytechnic State University. If you are an employer looking for hire you can get in touch with me here.'
     }),
 }
 </script>
