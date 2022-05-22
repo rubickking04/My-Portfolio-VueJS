@@ -1,17 +1,20 @@
 <template>
   <section id="home">
     <v-container>
-      <div class="py-5">
+      <!-- <div class="py-5"> -->
         <div class="py-5">
           <div class="py-5">
             <v-row class="text-center py-5">
               <div class="mb-4 col-lg-6 col-md-8">
                 <div class="py-5">
                   <div class="py-5">
-                    <div class="py-3 container">
-                      <h5 class="headline px-2 text-start font-weight-bold">Hello, I'm </h5>
-                      <h1 class="my-text display-3  text-start font-weight-bold my-name" style="font-family: 'Montserrat', sans-serif">{{ me }}</h1>
-                      <p class="headline text-start font-weight-bold typing-text">A Fullstack Web Developer.</p>
+                    <div class=" container">
+                      <h3 class=" px-2 text-start font-weight-bold" style="font-family: 'Montserrat', sans-serif">Hello, I'm </h3>
+                      <h1 class="my-text text-start font-weight-bold my-name" style="font-family: 'Poppins', sans-serif; font-size:50px;">{{ me }}</h1>
+                      <vue-typed-js :strings="['System Analyst.','Programmer.','Fullstack Web Developer.' ]">
+                        <p class="headline text-start font-weight-bold">I'm a <span class="typing text-info" style="font-family: 'Montserrat', sans-serif"></span></p>
+                      </vue-typed-js>
+                      <!-- <p class="headline text-start font-weight-bold">A <span class="text">Fullstack Web Developer.</span> </p> -->
                       <div class="text-start mb-3">
                         <a href="https://twitter.com/rubickking04"><span class="fs-1 bi bi-twitter text-info px-3"></span></a>
                         <a href="https://www.facebook.com/alfhaigar.usman.1/" ><span class="fs-1 px-3 bi bi-facebook text-primary"></span></a>
@@ -39,7 +42,7 @@
             </v-row>
           </div>
         </div>
-      </div>
+      <!-- </div> -->
     </v-container>
   </section>
 </template>
@@ -47,7 +50,6 @@
 <script>
 export default {
   name: "HelloWorld",
-
   data: () => ({
     me: 'Al-Fhaigar Usman'
   }),
@@ -55,31 +57,5 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-h1 .my-name {
-  font-family: "Montserrat", sans-serif;
-}
-.typing-text{
-  margin-left: 10px;
-  overflow: hidden;
-  white-space: nowrap;
-  border-right: 4px solid #1de2d1;
-  animation: typing 5s  infinite;
 
-}
-@keyframes typing{
-  0%{
-    width: 0ch;
-  }
-  50%{
-    width: 22ch;
-  }
-  100%{
-    width: 0ch;
-  }
-}
-/* @media (max-width: 400px) {
-    h1 .my-text{
-      font-size: 100px;
-    }
-  } */
 </style>
