@@ -11,7 +11,7 @@
                     <div class=" container">
                       <h3 class=" px-2 text-start font-weight-bold" style="font-family: 'Montserrat', sans-serif">Hello, I'm </h3>
                       <h1 class="my-text text-start font-weight-black my-name" style="font-family: 'Poppins', sans-serif; font-size:50px;">{{ me }}</h1>
-                      <vue-typed-js :strings="['System Analyst.','Programmer.','System Developer.','Fullstack Web Developer.' ]">
+                      <vue-typed-js :strings="['System Analyst.','Programmer.','System Developer.','Fullstack Web Developer.' ]"  @onComplete="doSmth()" :typeSpeed="50" :loop="true" :backSpeed="60" :startDelay="1000">
                         <h3 class=" text-start font-weight-bold" style="font-family: 'Montserrat', sans-serif;">I'm a <span class="typing"  style=" color:#0277BD;"></span></h3>
                       </vue-typed-js>
                       <!-- <p class="headline text-start font-weight-bold">A <span class="text">Fullstack Web Developer.</span> </p> -->
