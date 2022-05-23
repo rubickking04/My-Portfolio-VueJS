@@ -51,7 +51,7 @@
 export default {
   name: "HelloWorld",
   data: () => ({
-    me: 'Al-Fhaigar'
+    me: 'Al-Fhaigar Usman'
   }),
 };
 </script>
