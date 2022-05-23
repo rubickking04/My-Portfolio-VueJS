@@ -5,15 +5,15 @@
           <a href="https://alfhaigarusman04.herokuapp.com/" class="d-flex navbar-brand">
             <v-img
               alt="Vuetify Logo"
-              class="shrink px-1"
+              class="px-1"
               contain
-              src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
+              src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-light.png"
               transition="scale-transition"
-              width="30"
+              width="40"
             />
             <v-img
               alt="Vuetify Name"
-              class="shrink mt-1 hidden-sm-and-down px-4"
+              class="mt-1 hidden-sm-and-down px-4"
               contain
               min-width="80"
               src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
