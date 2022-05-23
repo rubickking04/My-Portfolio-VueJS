@@ -10,7 +10,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-5">
                   <v-hover v-slot="{ hover }">
                     <v-card  :elevation="hover ? 24 : 2" :class="{ 'on-hover': hover  }" max-width="700">
-                    <v-img src="../assets/project2.png" height="230px"></v-img>
+                    <v-img src="../assets/me.gif" height="230px"></v-img>
                     <v-card-title>My Web Portfolio</v-card-title>
                     <v-card-subtitle class="subtitle-1 fw-bold">Al-Fhaigar Usman</v-card-subtitle>
                     <v-card-text><v-btn href="https://vuejs.org/" elevation="2" large outlined color="#1b5e20" ><i class="fa-brands font-weight-bold fs-4 fa-vuejs px-2" style="color:#1b5e20;"></i>Vue JS</v-btn></v-card-text>
