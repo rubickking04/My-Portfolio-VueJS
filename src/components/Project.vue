@@ -34,25 +34,25 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-5">
                   <v-hover v-slot="{ hover }">
                     <v-card  :elevation="hover ? 24 : 2" :class="{ 'on-hover': hover  }" max-width="700" style="border-radius:20px;">
-                    <v-img src="../assets/project1.png" height="230px"></v-img>
-                    <v-card-title>Automated Class Grading System</v-card-title>
-                    <v-card-subtitle class="fw-bold text-muted" style="font-family: 'Montserrat', sans-serif">Website / Progressive Web Application / System Software / Cloud Hosted</v-card-subtitle>
-                    <v-card-text><v-btn href="https://laravel.com/" elevation="2" large outlined color="red" ><i class="fa-brands font-weight-bold fs-4 fa-laravel px-2" style="color:red;"></i>laravel</v-btn></v-card-text>
-                    <v-card-actions>
-                      <v-btn href="https://zppsu-cics-wannabe.herokuapp.com/" color="red" text>Explore Now</v-btn>
-                      <v-spacer></v-spacer>
-                      <v-btn icon @click="show = !show">
-                        <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
-                      </v-btn>
-                    </v-card-actions>
-                    <v-expand-transition>
-                      <div v-show="show">
-                        <v-divider></v-divider>
-                        <v-card-text class="subtitle-2 text-justify">{{ about }}</v-card-text>
-                        <v-card-subtitle class="fw-bold text-secondary" style="font-family: 'Montserrat', sans-serif"><i class="fa-solid fa-earth-americas px-1"></i> May 24, 2022 - Integrative Programming and Technologies 3</v-card-subtitle>
-                      </div>
-                    </v-expand-transition>
-                  </v-card>
+                      <v-img src="../assets/project1.png" height="230px"></v-img>
+                      <v-card-title>Automated Class Grading System</v-card-title>
+                      <v-card-subtitle class="fw-bold text-muted" style="font-family: 'Montserrat', sans-serif">Website / Progressive Web Application / System Software / Cloud Hosted</v-card-subtitle>
+                      <v-card-text><v-btn href="https://laravel.com/" elevation="2" large outlined color="red" ><i class="fa-brands font-weight-bold fs-4 fa-laravel px-2" style="color:red;"></i>laravel</v-btn></v-card-text>
+                      <v-card-actions>
+                        <v-btn href="https://zppsu-cics-wannabe.herokuapp.com/" color="red" text>Explore Now</v-btn>
+                        <v-spacer></v-spacer>
+                        <v-btn icon @click="show = !show">
+                          <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
+                        </v-btn>
+                      </v-card-actions>
+                      <v-expand-transition>
+                        <div v-show="show">
+                          <v-divider></v-divider>
+                          <v-card-text class="subtitle-2 text-justify">{{ about }}</v-card-text>
+                          <v-card-subtitle class="fw-bold text-secondary" style="font-family: 'Montserrat', sans-serif"><i class="fa-solid fa-earth-americas px-1"></i> May 24, 2022 - Integrative Programming and Technologies 3</v-card-subtitle>
+                        </div>
+                      </v-expand-transition>
+                    </v-card>
                   </v-hover>
                 </div>
               </div>

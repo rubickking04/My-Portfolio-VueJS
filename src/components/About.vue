@@ -16,7 +16,10 @@
                                         <div class="col-md-8">
                                             <div class="card-body">
                                                 <v-card-title class="display-2 fw-bold">About Me</v-card-title>
-                                                <v-card-subtitle class="title fw-bold">Fullstack Developer & System Analyst</v-card-subtitle>
+                                                <!-- <vue-typed-js :strings="['System Analyst.','Programmer.','System Developer.','Fullstack Web Developer.' ]"  @onComplete="doSmth()" :typeSpeed="50" :loop="true" :backSpeed="60" :startDelay="1000">
+                                                    <v-card-subtitle class="title font-weight-bold" style="font-family: 'Montserrat', sans-serif;">I'm a <span class="typing"  style=" color:#0277BD;"></span></v-card-subtitle>
+                                                </vue-typed-js> -->
+                                                <v-card-subtitle class=" title text-primary fw-bold">Fullstack Developer & System Analyst</v-card-subtitle>
                                                 <v-card-text class="subtitle-1">{{ aboutMe }}</v-card-text>
                                                 <div class="row no-gutters">
                                                     <div class="col-lg-2 col-md-3 col-sm-3 col-5">

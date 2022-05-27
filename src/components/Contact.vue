@@ -48,7 +48,7 @@
                 </div>
             </v-row>
         </v-container>
-        <h1 class=" text-center font-weight-bold  mb-4 fw-bolder" style="font-family: 'Montserrat', sans-serif">Al-Fhaigar Usman</h1>
+        <h1 class=" text-center font-weight-bold  mb-4 fw-bolder" style="font-family: 'Montserrat', sans-serif">Al-Fhaigar J. Usman</h1>
         <div class="text-center">
             <a href="https://twitter.com/rubickking04"><span class="fs-1 bi bi-twitter text-info px-2"></span></a>
             <a href="https://www.facebook.com/alfhaigar.usman.1/" ><span class="fs-1 px-2 bi bi-facebook"></span></a>
