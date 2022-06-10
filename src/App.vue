@@ -134,6 +134,7 @@ import Skills from "./components/Skills";
 import Services from "./components/Services";
 import Project from "./components/Project";
 
+
 export default {
   name: "App",
   components: {

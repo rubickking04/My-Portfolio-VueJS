@@ -60,6 +60,6 @@
 </template>
 <script>
 export default {
-    name: "Contact-Datails"
+    name: "Contact-Datails",
 }
 </script>
