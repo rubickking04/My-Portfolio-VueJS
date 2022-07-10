@@ -12,7 +12,7 @@
                       <h3 class=" px-2 text-start text-white font-weight-bold" style="font-family: 'Montserrat', sans-serif">Hello, I'm </h3>
                       <h1 class="text-start my-name text-white" >{{ me }}</h1>
                       <vue-typed-js :strings="['System Analyst.','Programmer.','System Developer.','Fullstack Web Developer.' ]"  @onComplete="doSmth()" :typeSpeed="50" :loop="true" :backSpeed="60" :startDelay="1000">
-                        <h4 class="px-2 text-start font-weight-bold text-white" style="font-family: 'Montserrat', sans-serif;">I'm a <span class="typing text-primary"></span></h4>
+                        <h5 class="text-start font-weight-bold text-white" style="font-family: 'Montserrat', sans-serif;">I'm a <span class="typing text-primary"></span></h5>
                       </vue-typed-js>
                       <!-- <p class="headline text-start font-weight-bold">A <span class="text">Fullstack Web Developer.</span> </p> -->
                       <div class="text-start mb-3">
@@ -64,7 +64,7 @@ section {
   width: 100%;
   background-size: cover;
 }
-h3, h4 {
+h3, h5 {
   background: linear-gradient(to right,#bdc3c7 , #c1d5e0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
