@@ -5,20 +5,20 @@
         <div class="py-5">
           <div class="py-5">
             <v-row class="text-center py-5">
-              <div class="mb-4 col-lg-6 col-md-8">
+              <div class="mb-4 col-lg-6 col-md-8 col-12">
                 <div class="py-5">
                   <div class="py-5">
                     <div class=" container">
-                      <h3 class=" px-2 text-start font-weight-bold" style="font-family: 'Montserrat', sans-serif">Hello, I'm </h3>
-                      <h1 class="my-text text-start font-weight-black my-name" style="font-family: 'Poppins', sans-serif; font-size:50px;">{{ me }}</h1>
+                      <h3 class=" px-2 text-start text-white font-weight-bold" style="font-family: 'Montserrat', sans-serif">Hello, I'm </h3>
+                      <h1 class="text-start my-name text-white" >{{ me }}</h1>
                       <vue-typed-js :strings="['System Analyst.','Programmer.','System Developer.','Fullstack Web Developer.' ]"  @onComplete="doSmth()" :typeSpeed="50" :loop="true" :backSpeed="60" :startDelay="1000">
-                        <h3 class=" text-start font-weight-bold" style="font-family: 'Montserrat', sans-serif;">I'm a <span class="typing"  style=" color:#0277BD;"></span></h3>
+                        <h4 class="px-2 text-start font-weight-bold text-white" style="font-family: 'Montserrat', sans-serif;">I'm a <span class="typing text-primary"></span></h4>
                       </vue-typed-js>
                       <!-- <p class="headline text-start font-weight-bold">A <span class="text">Fullstack Web Developer.</span> </p> -->
                       <div class="text-start mb-3">
                         <a href="https://twitter.com/rubickking04"><span class="fs-1 bi bi-twitter text-info px-3"></span></a>
                         <a href="https://www.facebook.com/alfhaigar.usman.1/" ><span class="fs-1 px-3 bi bi-facebook text-primary"></span></a>
-                        <a href="https://github.com/rubickking04"><span class="fs-1 px-3 bi bi-github text-dark"></span></a>
+                        <a href="https://github.com/rubickking04"><span class="fs-1 px-3 bi bi-github text-white"></span></a>
                         <a href="https://www.instagram.com/kingrubick_04/"><span class="fs-1 bi bi-instagram text-danger px-3"></span></a>
                         <a href="https://www.linkedin.com/in/al-fhaigar-usman-108812193/"><span class="fs-1 bi bi-linkedin text-primary px-3"></span></a>
                       </div>
@@ -58,5 +58,39 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
+section {
+  background-image: url('../assets/cool-background.png');
+  height: auto;
+  width: 100%;
+  background-size: cover;
+}
+h3, h4 {
+  background: linear-gradient(to right,#bdc3c7 , #c1d5e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.my-name {
+  font-size: 3.5rem;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right,#bdc3c7 , #c1d5e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media only screen and ( max-width:576px) {
+  .my-name {
+  font-size: 1rem;
+}
+}
+@media only screen and ( max-width:768px) {
+  .my-name {
+  font-size: 3rem;
+}
+}
+// .typing {
+//   // font-size: 30px;
+//   background: -webkit-linear-gradient(#8c0032, #4a0072);
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+// }
 </style>

@@ -6,7 +6,7 @@
                 <div class="py-5">
                     <div class="row justify-content-center ">
                         <v-row class="col-lg-12">
-                            <v-card elevation="12" shaped data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-easing="linear" data-aos-duration="900">
+                            <v-card elevation="12" shaped >
                                 <v-card-body class="card-body">
                                     <div class="row g-0">
                                         <div class="col-md-4">
