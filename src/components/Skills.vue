@@ -64,9 +64,9 @@ export default {
     data: () => ({
         html: 95,
         css: 90,
-        js: 75,
+        js: 85,
         laravel: 80,
-        vue: 70,
+        vue: 75,
         boot: 90,
         knowledge: 33,
         power: 78,
