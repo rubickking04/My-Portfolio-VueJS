@@ -29,7 +29,7 @@
                                     <i class="fas fa-envelope text-warning mb-2 fs-1"></i>
                                     <h4 class="text-uppercase m-0">Email</h4>
                                     <hr class="my-4 mx-auto" />
-                                    <div class="subtitle-1 text-black-100">rubickking04@gmail.com</div>
+                                    <div class="subtitle-1 text-black-100">alfhaigarusman@gmail.com</div>
                             </div>
                         </v-card-body>
                     </v-card>
@@ -41,7 +41,7 @@
                                     <i class="fa-solid fa-phone text-primary mb-2 fs-1"></i>
                                     <h4 class="text-uppercase m-0">Phone</h4>
                                     <hr class="my-4 mx-auto" />
-                                    <div class="subtitle-1 text-black-100">(+63)955-781-5639</div>
+                                    <div class="subtitle-1 text-black-100">(+63) 953-482-0685</div>
                             </div>
                         </v-card-body>
                     </v-card>
