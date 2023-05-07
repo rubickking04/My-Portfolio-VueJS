@@ -26,7 +26,7 @@
                                                         <v-btn href="#contact" elevation="12" dark class="mx-4 mb-2">Hire Me</v-btn>
                                                     </div>
                                                     <div class="col-lg-3 col-md-6 col-sm-6 col-6">
-                                                        <v-btn elevation="12"  class="mx-2 fw-bold mb-2">Download CV</v-btn>
+                                                        <v-btn elevation="12" @click="downloadFile" class="mx-2 fw-bold mb-2">Download CV</v-btn>
                                                     </div>
                                                 </div>
                                             </div>
@@ -43,10 +43,23 @@
     
 </template>
 <script>
+import download from 'downloadjs';
 export default {
     name: "About-Me-Myself-and-i",
     data: () => ({
         aboutMe: 'Hi, My name is Al-Fhaigar J. Usman a Fullstack Developer and a System Analyst from Zamboanga City, Philippines. I create a custom website to help everyone do better online, I am currently studying as a 3rd year student at Zamboanga Peninsula Polytechnic State University. If you are an employer looking for hire you can get in touch with me here.'
     }),
+    methods: {
+        downloadFile() {
+            const url = '../assets/Al-Fhaigar Usman - Resume-v2.pdf';
+            download(url);
+            // const link = document.createElement('a');
+            // link.href = url;
+            // link.download = 'Al-Fhaigar Usman - Resume-v2.pdf';
+            // document.body.appendChild(link);
+            // link.click();
+            // document.body.removeChild(link);
+        }
+    }
 }
 </script>
